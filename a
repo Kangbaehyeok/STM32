@@ -1,7 +1,0 @@
-#include<stdio.h>
-
-int main()
-{
-    GPIOA->CRL = 0x11111111;
-    GPIOA->ODR = 0xFFFF;
-}
