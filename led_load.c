@@ -16,11 +16,11 @@ int main(void)
     
     while(1)
     {
-        led = 0x00;
+        led = 0x0000;
         
         for(j=7;j>=0;j--)
         {
-            k = 0x80;
+            k = 0x0080;
             
             for(i=0;i<=j;i++)
             {
